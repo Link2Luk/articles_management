@@ -1,0 +1,30 @@
+.wrapper {
+  width: 33%;
+  max-width: 500px;
+  min-width: 250px;
+  margin: 16px auto;
+}
+
+.wrapper .title {
+  margin: 16px auto;
+  color: var(--el-text-color-regular);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.wrapper .button {
+  width: 100%;
+}
+
+.wrapper .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px auto;
+  color: var(--el-text-color-regular);
+  font-size: var(--el-font-size-base);
+}
+
+:deep(.el-form-item__label:before) {
+  display: none;
+}
